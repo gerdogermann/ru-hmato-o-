@@ -8,14 +8,18 @@
 
 /* Begin PBXFileReference section */
 		A37DFBBD291444E000517894 /* pealeht.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = pealeht.html; sourceTree = "<group>"; };
-		A3BDB30D2923EA3900FB5D43 /* stiil.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = stiil.css; sourceTree = "<group>"; };
+		A3BDB30D2923EA3900FB5D43 /* lehestiil.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = lehestiil.css; sourceTree = "<group>"; };
+		A3BDB30F2923EB7900FB5D43 /* alamleht_1.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = alamleht_1.html; sourceTree = "<group>"; };
+		A3BDB3102923EB8D00FB5D43 /* alameleht_1.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = alameleht_1.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		A37DFBB6291444CC00517894 = {
 			isa = PBXGroup;
 			children = (
-				A3BDB30D2923EA3900FB5D43 /* stiil.css */,
+				A3BDB3102923EB8D00FB5D43 /* alameleht_1.css */,
+				A3BDB30F2923EB7900FB5D43 /* alamleht_1.html */,
+				A3BDB30D2923EA3900FB5D43 /* lehestiil.css */,
 				A37DFBBD291444E000517894 /* pealeht.html */,
 			);
 			sourceTree = "<group>";

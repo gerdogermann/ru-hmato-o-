@@ -19,8 +19,8 @@
 		A37DFBB6291444CC00517894 = {
 			isa = PBXGroup;
 			children = (
-				A3BDB3132923EC8700FB5D43 /* CSS */,
 				A3BDB3142923ECA200FB5D43 /* HTML */,
+				A3BDB3132923EC8700FB5D43 /* CSS */,
 			);
 			sourceTree = "<group>";
 		};

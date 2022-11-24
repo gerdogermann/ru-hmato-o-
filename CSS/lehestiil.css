@@ -1,0 +1,24 @@
+h1 {
+    color: darkblue;
+    font-size: 200%;
+    font-family: verdana;
+}
+
+p {
+    color: blue;
+    font-size: 90%;
+    font-family: courier;}
+body {
+    background-color: lightskyblue;
+}
+
+h2 {
+    color: darkorchid;
+    font-family: verdana;
+}
+
+li {
+    color: blue;
+    font-family: courier;
+}
+#suvaliselt imporditud eelmisest tunnitööst, võite vabalt muuta.

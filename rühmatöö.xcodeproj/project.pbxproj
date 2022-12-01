@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		A32E89292938BE4F0072ABF3 /* pealeht.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = pealeht.css; path = HTML/pealeht.css; sourceTree = SOURCE_ROOT; };
+		A32E89292938BE4F0072ABF3 /* pealeht.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = pealeht.css; path = CSS/pealeht.css; sourceTree = SOURCE_ROOT; };
 		A37DFBBD291444E000517894 /* pealeht.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = pealeht.html; sourceTree = "<group>"; };
 		A3BDB30D2923EA3900FB5D43 /* lehestiil.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = lehestiil.css; sourceTree = "<group>"; };
 		A3BDB30F2923EB7900FB5D43 /* alamleht_1.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = alamleht_1.html; sourceTree = "<group>"; };
@@ -28,6 +28,7 @@
 		A3BDB3132923EC8700FB5D43 /* CSS */ = {
 			isa = PBXGroup;
 			children = (
+				A32E89292938BE4F0072ABF3 /* pealeht.css */,
 				A3BDB30D2923EA3900FB5D43 /* lehestiil.css */,
 				A3BDB3102923EB8D00FB5D43 /* alameleht_1.css */,
 				A3BDB3122923EC7400FB5D43 /* alamleht_2.css */,
@@ -41,7 +42,6 @@
 				A37DFBBD291444E000517894 /* pealeht.html */,
 				A3BDB30F2923EB7900FB5D43 /* alamleht_1.html */,
 				A3BDB3112923EC6000FB5D43 /* alamleht_2.html */,
-				A32E89292938BE4F0072ABF3 /* pealeht.css */,
 			);
 			path = HTML;
 			sourceTree = "<group>";

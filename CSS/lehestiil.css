@@ -1,24 +1,18 @@
 h1 {
-    color: darkblue;
+    color: #208ae6;
     font-size: 200%;
-    font-family: verdana;
+    font-family: didot;
 }
 
 p {
-    color: blue;
-    font-size: 90%;
-    font-family: courier;}
+    color: #e62054;
+    font-size: 120%;
+    font-family: didot;}
 body {
-    background-color: lightskyblue;
-}
-
-h2 {
-    color: darkorchid;
-    font-family: verdana;
+    background-color: #e6cc20;
 }
 
 li {
-    color: blue;
-    font-family: courier;
+    color: #208ae6;
+    font-family: didot;
 }
-#suvaliselt imporditud eelmisest tunnitööst, võite vabalt muuta.

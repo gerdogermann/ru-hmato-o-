@@ -8,6 +8,7 @@ p {
     color: #e62054;
     font-size: 120%;
     font-family: didot;}
+
 body {
     background-color: #e6cc20;
 }
@@ -16,3 +17,5 @@ li {
     color: #208ae6;
     font-family: didot;
 }
+
+#208ae6, #e6cc20, #e62054

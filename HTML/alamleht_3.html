@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/alamleht_3.css">
+    <title>PyGame</title>
+</head>
+<body>
+    <div class="topnav">
+        <a href="pealeht.html">Pealeht</a>
+        <a href="alamleht_1.html">NumPy</a>
+        <a href="alamleht_2.html">TensorFlow</a>
+        <a class="active" href="alamleht_3.html">PyGame</a>
+    </div> 
+    
+    
+    <img src="pygame_logo.svg" height="70">
+
+    <h2>Ajalugu</h2>
+
+    <p>Pygame oli algselt kirjutatud Pete Shinners asendada PySDL pärast selle areng seiskus. See on olnud kogukonna projekt alates 2000. aastast ja vabastatakse vaba tarkvara GNU Lesser General Public License (mis pakub Pygam'i levitamiseks avatud lähtekoodi ja kommertstarkvaraga).</p>
+
+    <h2>Mis see on?</h2>
+
+    <p>Pygame on platvormideülene pythoni tarkvara, mis loodi spetsiaalselt videomängude kujundamiseks. 
+        See sisaldab ka graafikat, visuaale ja helisid, mida saab kasutada kujundatava mängu täiustamiseks.
+        See sisaldab erinevaid teeke, mis töötavad piltide ja helidega ning saavad luua mängude jaoks graafikat. 
+        See lihtsustab kogu mängu kujundamise protsessi ja muudab selle lihtsaks algajatele, kes soovivad mänge arendada.</p>
+
+    <section>
+        <h2>Kuidas luua mängu PyGame's?</h2>
+        <p>Et kujundada mängu Pygame Pythonis, peate teadma peamiste komponentide Pygame:</p>
+        <div class="nav">
+            <ul>
+                <li>Pygame.init (): Seda kasutatakse kõigi imporditud pygame moodulite initsialiseerimiseks. Seda kasutades saate käivitada kõik pygame moodulid korraga. See impordib kõik vajalikud moodulid pygame oma programmi.</li>
+                <li>Display Surface: must ekraan, mis toimib lõuend teile kujundada oma mängu. Kõik mängu komponendid kuvatakse sellel ekraanil.  </li>
+                <li>
+                    Mäng tsükkel: Mängu tsükkel on tükk koodi kasutatakse käivitada peamine loogika mängu. See aitab teil määrata mängureeglid ja teeb kolm peamist asja:
+                    <ul>
+                        <li>Sündmuste käsitlemine </li>
+                        <li>Uuendab mängu üritusi</li>
+                        <li>Mängu oleku näitamine ekraanile</li>
+                    </ul>
+                </li>
+                <li>Pygame.quit(): Kas vastupidine init() funktsioon ja täielikult deaktiveerib pygame teek. See initsialiseerib kõik imporditud moodulid. Kuid see ei loobu mängust. </li>
+            </ul>
+        </div>
+    </section>
+
+    <h2>Miks PyGame?</h2>
+
+    <p>
+        Pygame on populaarne Pythoni mängude loomise teek, mis lubab lihtsasti tekitada graafikat ja heli ning saada kasutajalt sisendit mitmel erineval moel. See on hea viis, kuidas alustada oma mänguarendaja karjääri. See pole ka ainult alustamiseks: päris palju mänge on Pygame'iga tehtud.
+    </p>
+
+
+
+</body>
+</html>

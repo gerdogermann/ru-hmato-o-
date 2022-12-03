@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="et">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/alamleht_2.css">
     <title>TensorFlow</title>
-    <link rel="stylesheet" type="text/css" href="..\css\alamleht_2.css">
-    <link rel="stylesheet" type="text/css" href="..\css\lehestiil.css">
 </head>
     <body>
-        <h1> TensorFlow</h1>
 
-        <a href="pealeht.html">Pealeht</a>
-        <a href="alamleht_1.html">NumPy</a>
-        <hr>
-        <h3>Mis on TensorFlow?</h3>
+        <div class="topnav">
+            <a href="pealeht.html">Pealeht</a>
+            <a href="alamleht_1.html">NumPy</a>
+            <a class="active" href="alamleht_2.html">TensorFlow</a>
+            <a href="alamleht_3.html">PyGame</a>
+        </div> 
+        <img src="TensorFlow_logo.png" alt="tflogo" height="120">
+
+        <h2>Mis on TensorFlow?</h2>
             <p> Kui olete kokku puutunud Pythoni masinõppeprojektidega,
                 siis olete ka tõenäoliselt kuulnud avatud lähtekoodiga teegist
                 nimega TensorFlow.
@@ -26,39 +31,41 @@
                 saab neid ka rakendada TensorFlow abil tensorite toimingute seeriana.  
             </p>
 
-        <img src="tensorflowlogo.png" alt="tflogo" width="100" height="100">
+       
 
-        <h3>TensorFlow omadused</h3>
+        <h2>TensorFlow omadused</h2>
             <p>TensorFlow on optimeeritud kiiruse jaoks. See kasutab tehnikaid 
                 nagu XLA, et teha kiireid lineraalseid algebralisi toiminguid.
             </p>
-        <ol>
-            <li>Vastuvõtlik konstruktsioon</li>
-                <p> TensorFlow abil saame hõlpsasti visualiseerida graafiku igat osa, 
-                    mis Numpy või SciKiti kasutamisel ei ole võimalik.</p>
+        <div class="nav">
+            <ul>
+                <li><h3>Vastuvõtlik konstruktsioon</h3>
+                    <p> TensorFlow abil saame hõlpsasti visualiseerida graafiku igat osa, 
+                        mis Numpy või SciKiti kasutamisel ei ole võimalik.</p></li>
 
-            <li>Paindlikus</li>
-                <p>Üks väga olulisi Tensorflow omadusi on see, et ta on oma 
-                    toimivuses paindlik. Paindlikus väljendub selles, et TensorFlow'l on 
-                    modulaarused ja modulaarsuse osad, mida on võimalik eraldiseisvateks teha.</p>
+                <li><h3>Paindlikus</h3>
+                    <p>Üks väga olulisi Tensorflow omadusi on see, et ta on oma 
+                        toimivuses paindlik. Paindlikus väljendub selles, et TensorFlow'l on 
+                        modulaarused ja modulaarsuse osad, mida on võimalik eraldiseisvateks teha.</p></li>
 
-            <li>Kergesti treenitatav</li>
-                <p>TensorFlow on andmetöötluse jaoks hõlpsasti treenitatav nii CPU-l kui ka GPU-l.</p>
+                <li><h3>Kergesti treenitatav</h3>
+                    <p>TensorFlow on andmetöötluse jaoks hõlpsasti treenitatav nii CPU-l kui ka GPU-l.</p></li>
 
-            <li>Paraleelneurovõrkude treenimine</li>
-                <p>TensorFlow pakub torujuhtmete omadust nii, et saate treenida mitut närvivõrku 
-                    ja mitut GPU-d, mis muudab mudelid suuremahulistes süsteemides väga tõhusaks.</p>
+                <li><h3>Paraleelneurovõrkude treenimine</h3>
+                    <p>TensorFlow pakub torujuhtmete omadust nii, et saate treenida mitut närvivõrku 
+                        ja mitut GPU-d, mis muudab mudelid suuremahulistes süsteemides väga tõhusaks.</p></li>
 
-            <li>Suur kommuun</li>
-                <p>Selge see, et kui TensorFlow on välja töötanud Google, on selle ka olemas 
-                    suur meeskond tarkvarainsenere, kes töötavad pidevalt selle stabiilsuse 
-                    ja ka parandamise nimel.</p>
+                <li><h3>Suur kommuun</h3>
+                    <p>Selge see, et kui TensorFlow on välja töötanud Google, on selle ka olemas 
+                        suur meeskond tarkvarainsenere, kes töötavad pidevalt selle stabiilsuse 
+                        ja ka parandamise nimel.</p></li>
 
-            <li>Avatud lähtekood</li>
-                <p>Selle masinõppeteegi parim omadus on see, et see on avatud lähtekoodiga, 
-                    mis tähendab, et seda saab kasutada igaüks seni, kuni neil on internetiühendus.</p>
-        </ol>
-        <h3>TensorFlow kasutusvõimalused </h3>
+                <li><h3>Avatud lähtekood</h3>
+                    <p>Selle masinõppeteegi parim omadus on see, et see on avatud lähtekoodiga, 
+                        mis tähendab, et seda saab kasutada igaüks seni, kuni neil on internetiühendus.</p></li>
+            </ul>
+        </div>
+        <h2>TensorFlow kasutusvõimalused </h2>
             <p>On suur tõenäolsus, et te kasutate TensorFlow'd igapäevaselt, kuid ilma et te seda teaksite.
                 TensorFlow'd kasutavad selliste rakendused nagu näiteks Google Voice Search või Google Photos. 
 

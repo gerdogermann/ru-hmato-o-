@@ -1,0 +1,107 @@
+body {
+    margin: 1pc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    background-color: #f8f9fa;
+    color: black;
+    text-align: justify;
+    line-height: 1.25;   
+}
+
+li {
+    margin: 15px; 
+}
+
+img {
+    padding-top: 45px;
+    padding-bottom: 25px;
+}
+
+table, th, td {
+    
+    border: 1px solid;
+}
+
+table {
+    margin-top: 25px;
+    border-collapse: collapse;
+    margin-bottom: 35px;
+}
+/* */
+.topnav {
+    overflow: hidden;
+    margin-top: 40px;
+    background-color: #f8f9fa;
+    font-weight: bold;
+    border-top:rgb(156, 196, 248) solid 1px;
+    border-bottom: rgb(156, 196, 248) solid 1px;
+    font-size: 100px;    
+}
+
+.topnav a {
+    float: left;
+    color: #aaadb6;
+    text-align: center;
+    padding: 1em;
+    font-size: medium;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    color: rgb(50, 110, 165);
+}
+
+.topnav a.activePage {
+    color: rgb(50, 110, 165);   
+}
+
+/* */
+.collapsible {
+    background-color: rgb(200, 222, 243);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(50, 110, 165);
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 71%;
+    padding: 18px;
+    border: none;
+    text-align: left;
+    outline: none;
+}
+
+.active, .collapsible:hover {
+    background-color: #bbf097;
+}
+.collapsible:after {
+    content: '\002B';
+    color: rgb(50, 110, 165);
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: '\2212';
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 0 18px;
+    width: 69%;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: white;
+}
+
+.nav{
+    margin-bottom: 40px;
+}
+
+.pealeht{
+    width: 69%;
+}

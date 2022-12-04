@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="res/css/style.css">
+    <title>PyGame</title>   
+</head>
+<body>
+    <div class="topnav">
+        <a href="pealeht.html">Pealeht</a>
+        <a href="numpy.html">NumPy</a>
+        <a href="tensorflow.html">TensorFlow</a>
+        <a class="activePage" href="pygame.html">PyGame</a>
+    </div>
+    
+    <img src="res/images/pygame_logo.svg" alt="pglogo" height="70">
+    <br>
+    <button class="collapsible">Ajalugu</button>
+    <div class="content">
+        <p>
+            Pygame oli algselt kirjutatud Pete Shinners asendada PySDL pärast selle areng seiskus. See on olnud kogukonna projekt alates 2000. aastast ja vabastatakse vaba tarkvara GNU Lesser General Public License (mis pakub Pygam'i levitamiseks avatud lähtekoodi ja kommertstarkvaraga).
+        </p>
+    </div>
+
+    <button class="collapsible">Mis see on?</button>
+    <div class="content">
+         <p>
+            Pygame on platvormideülene pythoni tarkvara, mis loodi spetsiaalselt videomängude kujundamiseks. 
+            See sisaldab ka graafikat, visuaale ja helisid, mida saab kasutada kujundatava mängu täiustamiseks.
+            See sisaldab erinevaid teeke, mis töötavad piltide ja helidega ning saavad luua mängude jaoks graafikat. 
+            See lihtsustab kogu mängu kujundamise protsessi ja muudab selle lihtsaks algajatele, kes soovivad mänge arendada.
+        </p>
+    </div>
+    
+    
+    <div class="content">
+        <p>
+            Pygame on platvormideülene pythoni tarkvara, mis loodi spetsiaalselt videomängude kujundamiseks. 
+            See sisaldab ka graafikat, visuaale ja helisid, mida saab kasutada kujundatava mängu täiustamiseks.
+            See sisaldab erinevaid teeke, mis töötavad piltide ja helidega ning saavad luua mängude jaoks graafikat. 
+            See lihtsustab kogu mängu kujundamise protsessi ja muudab selle lihtsaks algajatele, kes soovivad mänge arendada.
+        </p>
+    </div>
+    
+    <button class="collapsible">Kuidas luua mängu PyGame's?</button>
+    <div class="content">
+        <p>Et kujundada mängu Pygame Pythonis, peate teadma peamiste komponentide Pygame:</p>
+        <div class="nav">
+            <ul>
+                <li>Pygame.init (): Seda kasutatakse kõigi imporditud pygame moodulite initsialiseerimiseks. Seda kasutades saate käivitada kõik pygame moodulid korraga. See impordib kõik vajalikud moodulid pygame oma programmi.</li>
+                <li>Display Surface: must ekraan, mis toimib lõuend teile kujundada oma mängu. Kõik mängu komponendid kuvatakse sellel ekraanil.  </li>
+                <li>
+                    Mäng tsükkel: Mängu tsükkel on tükk koodi kasutatakse käivitada peamine loogika mängu. See aitab teil määrata mängureeglid ja teeb kolm peamist asja:
+                    <ul>
+                        <li>Sündmuste käsitlemine </li>
+                        <li>Uuendab mängu üritusi</li>
+                        <li>Mängu oleku näitamine ekraanile</li>
+                    </ul>
+                </li>
+                <li>Pygame.quit(): Kas vastupidine init() funktsioon ja täielikult deaktiveerib pygame teek. See initsialiseerib kõik imporditud moodulid. Kuid see ei loobu mängust. </li>
+            </ul>
+        </div>
+    </div>
+    
+    <button class="collapsible">Miks PyGame?</button>
+
+    <div class="content">
+        <p>
+            Pygame on populaarne Pythoni mängude loomise teek, mis lubab lihtsasti tekitada graafikat ja heli ning saada kasutajalt sisendit mitmel erineval moel. See on hea viis, kuidas alustada oma mänguarendaja karjääri. See pole ka ainult alustamiseks: päris palju mänge on Pygame'iga tehtud.
+        </p>
+    </div>
+
+    <script src="/src/js/script.js"></script>
+</body>
+</html>
